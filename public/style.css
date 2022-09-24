@@ -1,0 +1,48 @@
+body {
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    padding: 0 16px;
+  }
+ 
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  h1 {
+    text-align: center;
+    color: aliceblue;
+  }
+  .App>.btnn:not(:last-child) {
+    margin-right: 50px;
+   }  
+   button,input{
+    margin-bottom: 100px;
+}
+
+
+
+.btnn:not(:last-child) {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  top: 50px;
+}
+
+
+input[type=file]:hover {
+    background-color:rgba(255,204,0,0.8);
+}
+
